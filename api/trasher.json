@@ -1,0 +1,23 @@
+{
+    "type": "object",
+    "properties": {
+      "orderno": {"type":"integer"},
+      "itemNo": { "type": "string" },
+      "date": { "type": "string", "format": "date" },
+      "itemName": { "type": "string" },
+      "quantity": { "type": "integer" },
+      "foundryName": { "type": "string" },
+      "castPo": { "type": "string" },
+      "castPoDate": { "type": "string", "format": "date" },
+      "quantitySent": { "type": "integer" },
+      "patternNo": { "type": "string" },
+      "receivedQuantity": { "type": "integer" },
+      "castReceivedDate": { "type": "string", "format": "date" },
+      "profilePlaining": { "type": "boolean" },
+      "degreePlaining": { "type": "boolean" },
+      "sideFacing": { "type": "boolean" },
+      "drilling": { "type": "boolean" },
+      "dispatch": { "type": "string" }
+    }
+  }
+  
